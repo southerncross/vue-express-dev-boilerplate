@@ -1,0 +1,22 @@
+{
+  "env": {
+    "browser": true,
+    "node": true,
+    "es6": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "modules": true
+    }
+  },
+  "extends": "standard",
+  "plugins": [
+    "html"
+  ],
+  "rules": {
+    "arrow-parens": 0,
+    "space-before-function-paren": 0
+  }
+}
