@@ -9,6 +9,33 @@ Vue + Express boilerplate for development
 - Webpack
 - Npm
 
+
+## Structure
+
+```
+.
+├── LICENSE
+├── README.md
+├── index.js
+├── nodemon.json
+├── package.json
+├── src
+│   ├── client
+│   │   ├── App.vue
+│   │   ├── components
+│   │   │   └── Hello.vue
+│   │   └── index.js
+│   └── server
+│       ├── index.js
+│       ├── public
+│       │   └── favicon.ico
+│       ├── router.js
+│       └── views
+│           ├── error.jade
+│           └── index.jade
+└── webpack.config.js
+```
+
 ## Usage
 
 1. Install dependencies
