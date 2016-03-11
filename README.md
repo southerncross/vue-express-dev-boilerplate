@@ -44,7 +44,7 @@ Vue + Express boilerplate for development
 
 2. Run the application
 
-   `npm dev run`
+   `npm run dev`
 
 ## References
 
