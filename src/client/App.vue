@@ -1,7 +1,7 @@
 <template>
   <div class="app full-height">
     <h1>{{ message }}</h1>
-    <a v-link="{ name: 'hello' }">Goto Hello</a>
+    <router-link :to="{ name: 'hello' }">Goto Hello</router-link>
     <router-view></router-view>
   </div>
 </template>
