@@ -7,17 +7,16 @@ import Hello from './components/Hello'
 Vue.config.debug = true
 Vue.use(Router)
 
-const router = new Router()
+const router = new Router({
+  routes: [
+    { name: 'hello', path: '/hello', component: Hello }
+  ]
+})
 
-router.map({
-  '/hello': {
-    name: 'hello',
-    component: Hello
+new Vue({
+  el: '#app',
+  router,
+  render (createElement) {
+    return createElement(App)
   }
 })
-
-router.beforeEach(() => {
-  window.scrollTo(0, 0)
-})
-
-router.start(App, '#app')
